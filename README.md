@@ -1,4 +1,4 @@
-# SMA_Project
-##Mini_Project for Multi_Agents System module
+# System multi agents project
+
 ### That is, a 10x10 cell grid on which each cell is considered a biological organism. These organisms can be infected with a virus, the spread of this virus is spread over three stages. In step 1 the cell turns green for 3 seconds, then it moves to stage 2 is turns orange for 2 seconds and eventually it moves to stage 3 and turns red for 1s before dying. Each cell infected with the virus in stage 1 can contaminate 2 other cells in the surrounding cells (3, 5 or 8) at the end of its first stage. Each cell infected with the virus (1st step) sends a message to the first responder who must move to the sick cell and administer an antidote, its movement from one cell to another takes 0.25 seconds. Any vaccinated cell cannot be infected a second time. The contaminated cell reports its condition to the first responder at each change in condition.
 
