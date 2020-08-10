@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="parent" prefHeight="733.0" prefWidth="619.0" style="-fx-background-color: #fff;" styleClass="parent" stylesheets="@../gui.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sma_project.GUIController">
+   <children>
+      <Label layoutX="203.0" layoutY="8.0" prefHeight="30.0" prefWidth="259.0" text="System multi Agent project  " textFill="#0746a6" AnchorPane.bottomAnchor="694.0" AnchorPane.leftAnchor="199.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Trebuchet MS Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="exit" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="657.0" layoutY="-2.0" prefHeight="30.0" prefWidth="30.0" ripplerFill="WHITE" styleClass="hover_border" stylesheets="@../exitstyle.css" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <graphic>
+            <FontAwesomeIconView fill="#fead05" glyphName="TIMES" size="20" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="reduire" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="601.0" prefHeight="30.0" prefWidth="30.0" ripplerFill="#bc7373" styleClass="hover_border1" stylesheets="@../exitstyle.css" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+         <graphic>
+            <FontAwesomeIconView fill="#fead05" glyphName="MINUS" size="20" wrappingWidth="15.714285850524902" />
+         </graphic>
+      </JFXButton>
+      <FlowPane fx:id="FlowPane" hgap="1.0" layoutX="9.0" layoutY="38.0" prefHeight="610.0" prefWidth="610.0" vgap="1.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="30.0" />
+      <HBox layoutX="9.0" layoutY="646.0" prefHeight="20.0" prefWidth="265.0" spacing="5.0" styleClass="hover_border1" stylesheets="@../exitstyle.css" AnchorPane.leftAnchor="5.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14fc37" height="20.0" stroke="#12f221" strokeType="INSIDE" width="20.0" />
+            <Label prefHeight="20.0" prefWidth="240.0" text="cellules atteintes par le verus étap : 01">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="671.0" prefHeight="20.0" prefWidth="265.0" spacing="5.0" styleClass="hover_border1" stylesheets="@../exitstyle.css">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffd816" height="20.0" stroke="#eeb816" strokeType="INSIDE" width="20.0" />
+            <Label prefHeight="20.0" prefWidth="240.0" text="cellules atteintes par le verus étap : 02">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="9.0" layoutY="697.0" prefHeight="20.0" prefWidth="265.0" spacing="5.0" styleClass="hover_border1" stylesheets="@../exitstyle.css">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff321f" height="20.0" stroke="#e80e0e" strokeType="INSIDE" width="20.0" />
+            <Label prefHeight="20.0" prefWidth="240.0" text="cellules atteintes par le verus étap : 03">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="345.0" layoutY="646.0" prefHeight="20.0" prefWidth="265.0" spacing="5.0" styleClass="hover_border1" stylesheets="@../exitstyle.css" AnchorPane.rightAnchor="5.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21eeff" height="20.0" stroke="#21eeff" strokeType="INSIDE" width="20.0" />
+            <Label prefHeight="20.0" prefWidth="240.0" text="cellules vaccinée par le secouriste">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox layoutX="345.0" layoutY="671.0" prefHeight="20.0" prefWidth="265.0" spacing="5.0" styleClass="hover_border1" stylesheets="@../exitstyle.css" AnchorPane.rightAnchor="5.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0746a6" height="20.0" stroke="#0746a6" strokeType="INSIDE" width="20.0" />
+            <Label prefHeight="20.0" prefWidth="240.0" text="cellules qui est dans un etat normal">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <Label fx:id="secure1" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="-55.0" layoutY="35.0" prefHeight="60.0" prefWidth="60.0" text="Label">
+         <graphic>
+            <FontAwesomeIconView fill="#09f521" glyphName="STREET_VIEW" size="50" textAlignment="CENTER" wrappingWidth="56.85714340209961" />
+         </graphic>
+      </Label>
+      <HBox layoutX="345.0" layoutY="697.0" prefHeight="25.0" prefWidth="257.0" spacing="5.0" styleClass="hover_border1" stylesheets="@../exitstyle.css">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="20.0" stroke="BLACK" strokeType="INSIDE" width="20.0" />
+            <Label prefHeight="20.0" prefWidth="240.0" text="Une cellules morte">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <JFXDrawer fx:id="drawer" defaultDrawerSize="235.0" layoutX="1.0" layoutY="646.0" prefHeight="392.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" />
+   </children>
+</AnchorPane>

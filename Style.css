@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2020, 12:07:46 AM
+    Author     : hamid
+*/
+.hover_border:hover{
+    
+    -fx-border-color: #0746A6;
+    -fx-border-width: 0px 8px 0px 2px;
+    -fx-background-color:#34e7e4e0;
+    -fx-cursor:hand;
+}
+.cursor_hand{
+    -fx-cursor:hand;
+}
+.humburger-line,.menu-text
+{
+    background-color: #fff;
+    color: #fff;
+}
+.exit .hover_border:hover{
+    
+    -fx-background-color:#ff0303;
+    
+}

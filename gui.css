@@ -1,0 +1,20 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.parent {
+    -fx-border-color:#0746A6;
+    -fx-background-color:#fff;
+    -fx-border-width: 4px;
+}
+.AnchorPane{
+    -fx-border-color:#0746A6;
+    -fx-background-color:#fff;
+    -fx-border-width: 4px;
+}
+.label{
+    -fx-text-fill:#0746A6;
+}

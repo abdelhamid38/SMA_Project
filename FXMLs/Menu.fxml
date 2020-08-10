@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="392.0" prefWidth="235.0" style="-fx-background-color: #fff; -fx-border-color: #0746A6; -fx-border-width: 4;" stylesheets="@../Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane accessibleText="hhhh" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="17.0" layoutY="150.0" prefHeight="24.0" prefWidth="200.0" text="Univercity Ibn Khaldoun" textAlignment="CENTER" textFill="#0746a6">
+               <font>
+                  <Font name="Tw Cen MT Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="#0746a6" glyphName="JOOMLA" layoutX="69.0" layoutY="121.0" size="100" />
+         </children>
+      </AnchorPane>
+      <JFXButton accessibleText="start" alignment="TOP_LEFT" focusTraversable="false" prefHeight="53.0" prefWidth="239.0" ripplerFill="#f2ff02" styleClass="hover_border" text="Start" textFill="#171616">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#0746a6" glyphName="HOME" size="40" textAlignment="RIGHT" wrappingWidth="37.85714340209961" />
+         </graphic>
+      </JFXButton>
+      <JFXButton accessibleText="Active_agent" alignment="TOP_LEFT" focusTraversable="false" prefHeight="53.0" prefWidth="235.0" ripplerFill="#f2ff02" styleClass="hover_border" text="the active agent" textFill="#222020">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#0746a6" glyphName="CIRCLE_ALT_NOTCH" size="40" textAlignment="RIGHT" wrappingWidth="37.85714340209961" />
+         </graphic>
+      </JFXButton>
+      <JFXButton accessibleText="Virus_agent" alignment="TOP_LEFT" focusTraversable="false" prefHeight="53.0" prefWidth="235.0" ripplerFill="#f2ff02" styleClass="hover_border" text="agent virus" textFill="#222020">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#0746a6" glyphName="GOOGLE_WALLET" size="40" textAlignment="RIGHT" wrappingWidth="37.85714340209961" />
+         </graphic>
+      </JFXButton>
+      <JFXButton accessibleText="Dath_agent" alignment="TOP_LEFT" focusTraversable="false" layoutX="14.0" layoutY="310.0" prefHeight="53.0" prefWidth="235.0" ripplerFill="#f2ff02" styleClass="hover_border" text="agent deid" textFill="#222020">
+         <font>
+            <Font name="Arial Bold Italic" size="16.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#0746a6" glyphName="GOOGLE_WALLET" size="40" textAlignment="RIGHT" wrappingWidth="37.85714340209961" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>

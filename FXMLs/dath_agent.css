@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+-fx-border-color:#0746A6;
+-fx-border-width:4px;
+}
+.AnchorPane{
+    background-color:#fff;
+}
+.list{
+   background-color:#fff; 
+}

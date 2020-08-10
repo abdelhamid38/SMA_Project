@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 22, 2020, 3:29:10 PM
+    Author     : hamid
+*/
+
+.mainFxmlClass {
+
+}
+.parent {
+    -fx-border-color:#0746A6;
+    -fx-background-color:#fff;
+    -fx-border-width: 4px;
+}
+.AnchorPane{
+    -fx-border-color:#0746A6;
+    -fx-background-color:#fff;
+    -fx-border-width: 4px;
+}
+.label{
+    -fx-text-fill:#fff;
+}

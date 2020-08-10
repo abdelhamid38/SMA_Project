@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="parent" prefHeight="500.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sma_project.Secure_controller">
+    <stylesheets>
+        <URL value="@dath_agent.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane prefHeight="30.0" prefWidth="346.0" styleClass="AnchorPane" stylesheets="@dath_agent.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton fx:id="exit" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="30.0" prefWidth="30.0" ripplerFill="WHITE" styleClass="hover_border" stylesheets="@../exitstyle.css" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <FontAwesomeIconView fill="#fead05" glyphName="TIMES" size="20" />
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="reduire" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="316.0" layoutY="-1.0" prefHeight="30.0" prefWidth="30.0" ripplerFill="#bc7373" styleClass="hover_border1" stylesheets="@../exitstyle.css" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="0.0">
+               <graphic>
+                  <FontAwesomeIconView fill="#fead05" glyphName="MINUS" size="20" wrappingWidth="15.714285850524902" />
+               </graphic>
+            </JFXButton>
+            <Label layoutX="90.0" layoutY="-1.0" prefHeight="30.0" prefWidth="163.0" text="The Secure Agents " textFill="#0746a6">
+               <font>
+                  <Font name="Trebuchet MS Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <JFXListView fx:id="list" layoutX="8.0" layoutY="38.0" prefHeight="470.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0" />
+   </children>
+   <styleClass>
+      <String fx:value="mainFxmlClass" />
+      <String fx:value="AnchorPane" />
+   </styleClass>
+</AnchorPane>
